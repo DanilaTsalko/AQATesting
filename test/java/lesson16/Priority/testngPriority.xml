@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="PrioritySuite">
+    <test name="ReverseAlphabetOrder">
+        <classes>
+            <class name="lesson16.Priority.Priority1">
+                <methods>
+                    <include name="g"/>
+                    <include name="f"/>
+                    <include name="e"/>
+                    <include name="d"/>
+                    <include name="c"/>
+                    <include name="b"/>
+                    <include name="a"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
