@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="LoginSuite" parallel="tests" thread-count="3">
+
+    <test name="LoginTestUser1">
+        <parameter name="email" value="1lesson16@gmail.com"/>
+        <parameter name="password" value="12345678"/>
+        <classes>
+            <class name="lesson16.task5.task5"/>
+        </classes>
+    </test>
+
+    <test name="LoginTestUser2">
+        <parameter name="email" value="2lesson16@gmail.com"/>
+        <parameter name="password" value="12345678"/>
+        <classes>
+            <class name="lesson16.task5.task5"/>
+        </classes>
+    </test>
+
+    <test name="LoginTestUser3">
+        <parameter name="email" value="3lesson16@gmail.com"/>
+        <parameter name="password" value="12345678"/>
+        <classes>
+            <class name="lesson16.task5.task5"/>
+        </classes>
+    </test>
+
+</suite>
